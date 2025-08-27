@@ -61,7 +61,7 @@ public class ProductService {
         response.setCategory(savedProduct.getCategory());
         response.setImageUrl(savedProduct.getImageUrl());
         response.setStock(savedProduct.getStock());
-        response.setAvtive(savedProduct.getActive());
+        response.setActive(savedProduct.getActive());
         return response;
     }
 
